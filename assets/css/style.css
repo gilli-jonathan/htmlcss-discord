@@ -164,6 +164,7 @@ footer{
     background: var(--color-black)
 }
 
+/* #region top-footer*/
 .f-top {
     /*height: 300px;*/
     gap: 5%;
@@ -175,11 +176,6 @@ footer{
 
 .f-rigth {
     flex-basis: 100%
-}
-
-.f-bottom {
-    margin-top: 2rem;
-    justify-content: space-between;
 }
 
 footer h3 {
@@ -204,6 +200,25 @@ li{
         height: 30px;
     }
 }
+/* #endregion top-footer*/
 
+/* #region bottom-footer*/
+.f-bottom {
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.f-separetor {
+    border: 1px solid var(--color-blufooter);
+}
+
+footer button {
+    background-color: var(--color-ligthblu);
+    color: var(--color-white);
+}
+
+
+
+/* #endregion bottom-footer*/
 
 /* #endregion footer*/
