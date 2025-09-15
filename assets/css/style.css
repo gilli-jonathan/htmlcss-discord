@@ -131,6 +131,13 @@ h1 {
     background-color: var(--color-grey)
 }
 
+.mask {
+    background-color: var(--color-grey);
+    mask-image: url(../img/wave.svg);
+    height: 76px;
+    mask-size: 1375px;
+}
+
 .last-section {
     text-align: center;
     margin-top: 3rem;
