@@ -122,11 +122,11 @@ h1 {
 }
 
 .main-para {
-    max-width: 25%;
+    max-width: 30%;
 }
 
 .color-back {
-    background-color: lightgrey;
+    background-color: var(--color-grey)
 }
 
 .last-section {
