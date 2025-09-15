@@ -45,6 +45,9 @@ a {
     text-decoration: none;
 }
 
+h2{
+    font-size: 40px;
+}
 /*#endregion Generals Rules*/
 
 /* #region header */
@@ -86,8 +89,9 @@ header :first-child {
 .top-main {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 3rem;
     color: var(--color-white);
+    height: 500px;
+    
 }
 
 .container-small p,
@@ -108,11 +112,9 @@ h1 {
 
 /* #region main*/
 .main-content {
-    background-color: rgb(204, 128, 240);
     margin-top: 4rem;
     margin-bottom: 4rem;
     justify-content: space-between;
-
 }
 
 .flex-img {
@@ -136,7 +138,10 @@ h1 {
 .last-img {
     height: 300px;
 }
-
+.main-content p{
+    margin-top: 2rem;
+    font-size: larger;
+}
 /* #endregion main*/
 
 /* #region footer*/
