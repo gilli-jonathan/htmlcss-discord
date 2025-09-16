@@ -16,10 +16,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.debug * {
+/*.debug * {
     margin: 1px;
     border-style: dotted;
-}
+}*/
 
 .container {
     max-width: 80%;
@@ -131,17 +131,23 @@ h1 {
     background-color: var(--color-grey)
 }
 
-.mask {
-    background-color: var(--color-grey);
-    mask-image: url(../img/wave.svg);
-    height: 76px;
-    mask-size: 1375px;
+.wave {
+    color: var(--color-grey);
+}
+
+.wave-top{
+margin-bottom: -100px;
+}
+
+.wave-bottom{
+    margin-top: -100px;
+    rotate: 180deg;
 }
 
 .last-section {
     text-align: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -151,8 +157,9 @@ h1 {
 }
 
 .last-section p {
-    margin: 1.5rem 0;
-}
+    margin top: 1.5rem;
+}  
+
 
 .last-section button {
     background-color: var(--color-ligthblu);
